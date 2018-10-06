@@ -1,4 +1,9 @@
 var vp = document.getElementById("villaplatzi");
+var papel = vp.getContext("2d");
+document.addEventListener("keydown", moverCerdo);
+
+var xCerdo = 218; //cada vez que se mueva recuerda el punto inicial
+var yCerdo = 218;
 
 function moverCerdo(evento)
 {
